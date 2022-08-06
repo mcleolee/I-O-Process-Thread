@@ -4,7 +4,7 @@
 
 int main()
 {
-	FILE *fp = fopen("./text.txt","r"); // 以只读方式打开文件 
+	FILE *fp = fopen("./text.txt","r"); //以只读方式打开文件 
     if(NULL == fp)
     {
         perror("fopen"); // 打印 errno 对应的错误信息

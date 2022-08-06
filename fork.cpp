@@ -1,8 +1,9 @@
 #include <stdio.h>
+ 
 
 int main(int argc, char *argv[])
 {
-    pid_t pid = fork(); //创建子进程
+    pid_t pid = fork(); //创建子进程；
     if (-1 == pid)
     {
         perror("fork");
